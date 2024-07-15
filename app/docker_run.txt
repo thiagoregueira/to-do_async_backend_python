@@ -1,0 +1,7 @@
+docker run --name fastapi_todo_async -d \
+    -p 3306:3306 \
+    -e MYSQL_ROOT_PASSWORD=fastapi\
+    -e MYSQL_USER=fastapi \
+    -e MYSQL_PASSWORD=fastapi \
+    -e MYSQL_DATABASE=fastapi \
+    mysql:latest
