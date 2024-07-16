@@ -7,7 +7,7 @@ from app.api.v1.todos import todo
 from app.core.config import settings
 
 description_text = """
-FastAPI TODO API Asynchronous Demo
+FastAPI TODO API
 """
 app = FastAPI(
     title='FastAPI TODO ASYNC API',

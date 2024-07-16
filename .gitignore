@@ -2,8 +2,7 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=python
 
 
-alembic.ini
-alembic
+
 
 ### Python ###
 # Byte-compiled / optimized / DLL files
@@ -181,3 +180,4 @@ pyrightconfig.json
 
 # Generated using ignr.py - github.com/Antrikshy/ignr.py
 
+.vercel
